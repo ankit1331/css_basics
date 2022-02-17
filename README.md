@@ -1,2 +1,2 @@
 # css_basics
-This repo will teach all the basics for the CSS. For more advanced version of CSS css_advance yet to come.
+=> Normalize CSS makes browsers render all elements more consistently and in line with modern standards. It precisely targets only the styles that need normalizing.
