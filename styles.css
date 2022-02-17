@@ -1,0 +1,33 @@
+.box {
+    width: 600px;
+    height: 200px;
+    background: dodgerblue;
+    border: 10px solid royalblue;
+}
+.box {
+    width: 600px;
+    height: 200px;
+    background: dodgerblue;
+    border: 10px solid royalblue;
+    border-top: 20px dashed royalblue; /* Order of the property matter */
+}
+.box {
+    width: 600px;
+    height: 200px;
+    background: dodgerblue;
+    border: 10px solid royalblue; /* this is the short hand property of below 3 properties */
+    border-width: 10px 20px 10px 20px;
+    border-style: solid;
+    border-color: blue;
+}
+
+.box {
+    width: 600px;
+    height: 200px;
+    background: dodgerblue;
+    border: 10px solid royalblue;
+    border-radius: 10px; /* This property is used to make the edges of the border round */
+}
+
+/* If you have a square and set border-radius to 50% then you will get circle */
+/* Try css-tricks.com to get different shapes from the css */
