@@ -1,0 +1,23 @@
+/* When hovered over the selector will give the exact specificity of the selector*/
+
+/* elements selector with least specificity */
+h1 {
+    /* important keyword will override all the specificity rules. But this should be avoided as its not the best practice and overtime your css will become hard to maintain*/
+    color: dodgerblue !important;
+}
+
+/* class selector with medium specificity */
+.highlight {
+
+}
+
+/* id selector with hightest specificity */
+#products {
+
+}
+
+/* This is the highest specificity as it turns out to be the specificity of 110 */
+.highlight #products {
+
+}
+
