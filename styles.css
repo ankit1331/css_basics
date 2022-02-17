@@ -1,0 +1,15 @@
+#products p {
+    /* This will select all the paragraph elements inside the product section. This is known as Descendent selector*/
+}
+
+#products > p {
+    /*  This will select only the parapgraph element which are direct descendants of product selection*/
+}
+
+#products ~ p {
+    /*  This will select all the paragraph elements which are the siblings of products section*/
+}
+
+#products + p {
+    /* This will select the first paragraph element which is the sibling of product section. */
+}
