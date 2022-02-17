@@ -1,0 +1,36 @@
+p {
+    color: dodgerblue;
+}
+/* strong is the child of p element */
+/* Automatically strong will inherit the property from its parent element */
+strong {
+     
+}
+
+
+/* ----------- */
+
+p {
+    color: dodgerblue;
+}
+/* this is how we can stop the inheritance in case we do not need it */
+strong {
+     color: initial;
+}
+
+/* -------------------- */
+
+p {
+    color: dodgerblue;
+    border: 1px solid black;
+}
+/* Here border property does not get inherited by default and we have forced the inhertance */
+strong {
+    border: inherit;
+}
+
+/* --------------- */
+
+/* Typically the propertied that are about typography will get inheriteed */
+
+
