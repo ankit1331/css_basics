@@ -1,0 +1,45 @@
+
+/* colors can be in one of the format Named colors, RGB, HExadecimal and HSL values */
+
+/* RGB and HSLa is having the alpha channel */
+.box {
+    background-color: rgb(red, green, blue,1);
+}
+
+/* Hexadecimal system does not have the transparency channel */
+
+/* For applying gradient you have give the property as background or background-image */
+/* Linear gradient */
+.box {
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(45deg, dodgerblue, yellow);
+}
+.box {
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(45deg, dodgerblue, yellow, tomato);
+}
+.box {
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(45deg, dodgerblue, yellow, 10%);
+}
+
+/* Radial Gradient */
+.box {
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(white, yellow);
+}
+.box {
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(circle at top left, dodgerblue, yellow, 10%);
+}
+
+/* CSS gradient.io you can easily make one gradient and implement in your css */
+
+/* Some of the browser still not support gradient so its better to give a fallback property of background */
+/* example :- background: rgb(115,107,231)
+            background: linear-gradient(32deg, rgba(115,107,231,1) 0%) */
