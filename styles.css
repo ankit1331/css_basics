@@ -1,0 +1,40 @@
+/*This will select the first child of article element  */
+article :first-child {
+
+}
+
+/* This will select every first different child of article element */
+article :first-of-type {
+
+}
+
+/* This will select the first child of article element of type paragraph */
+article p:first-of-type {
+
+}
+
+/* This will select the last child of type paragraph */
+article p:last-of-type {
+    
+}
+
+/* This will select the last child of article if its paragraph element */
+article p:last-child {
+
+}
+
+/* This will select the nth element of type li */
+ul li:nth-child(odd/even/3n) {
+
+}
+
+/* This will select the visited and non visited link */
+a:visited, a:link {
+
+}
+
+/* This will select anchor element when in hover or in focused state. This is the best practice to give both of them together */
+a:hover, a:focus {
+
+}
+
