@@ -1,0 +1,33 @@
+/* Pseudo elements are used to style part of an element */
+/* Pseudo classes are used to style elements in a particular state */
+
+/* This will select the first letter of each paragraph and style accordingly */
+p::first-letter{
+
+}
+
+/* This will select the first line of each paragraph */
+p::first-line {
+
+}
+
+/* This will select the selected text of paragraph element */
+p::selection {
+
+}
+
+/* Here the styles will be applied on the selected elements irrespective of the element selected */
+::selection {
+
+}
+
+/* This will insert the content before each paragraph and then you can treat this like any other element ex. give display property to the pseudo element */
+p::before {
+    content: "...";
+    /* display: "block" */
+}
+
+/* This will insert the content after the content of the paragraph for each paragraph element */
+p::after {
+    content: "...";
+}
